@@ -57,7 +57,7 @@ Why these rules:
 Location is the biggest driver of price, but Brooklyn has about 60 neighborhoods, and one indicator for each would use most of the 40-parameter budget.
 
 - **First approach, rejected:** We ranked neighborhoods into tiers by the prior year's price per square foot. After instructor feedback, we dropped it. Even lagged, a neighborhood price measure puts sale prices on both sides of the equation. Grouping neighborhoods by price has the same problem.
-- **Final approach (a teammate's design, adopted in the combined model):** a smooth, price-free location surface built only from each home's coordinates (from NYC's PLUTO tax-lot data), plus distance-based measures. No location variable uses any sale price.
+- **Final approach:** a smooth, price-free location surface built only from each home's coordinates (from NYC's PLUTO tax-lot data), plus distance-based measures. No location variable uses any sale price.
 - **Alternatives compared**, on held-out error and parameter count:
   - the City's 18 community districts
   - simpler and more detailed versions of the surface
@@ -118,4 +118,4 @@ Location is the biggest driver of price, but Brooklyn has about 60 neighborhoods
 
 ## Contact
 
-For the model specification, code or full results, please contact **Cole Howey**.
+For the model specification, code or full results, please contact **Cole**.
