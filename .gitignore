@@ -1,0 +1,8 @@
+# Publish only the write-up and the map. Code, data, models and course
+# documents in this folder stay on this computer and are never uploaded.
+*
+!.gitignore
+!README.md
+!figures/
+figures/*
+!figures/location_surface.png
